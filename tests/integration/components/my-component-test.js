@@ -12,6 +12,5 @@ module('Integration | Component | my-component', function(hooks) {
     await render(hbs`<MyComponent @action={{this.action}} />`);
 
     assert.dom('[data-something="bar"]').exists();
-    assert.dom('[data-something="bar"]').hasText('bar');
   });
 });
