@@ -53,5 +53,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "ember-concurrency": "^1.1.7"
   }
 }
